@@ -1,0 +1,139 @@
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5;
+  color: #434455;
+  background-color: #fff;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+/* ----- Header ----- */
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.header-logo-accent {
+  color: #2e2f42;
+}
+
+.nav-link {
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.contacts {
+  font-style: normal;
+}
+
+.contacts-link {
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.nav-link:hover,
+.nav-link:focus,
+.contacts-link:hover,
+.contacts-link:focus {
+  color: #404bbf;
+}
+
+/* ----- Hero ----- */
+.hero {
+  background-color: #2e2f42;
+  text-align: center;
+}
+
+.hero-title {
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #fff;
+  text-transform: capitalize;
+}
+
+.hero-title-accent {
+  text-transform: lowercase;
+}
+
+.hero-button {
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  background-color: #4d5ae5;
+  cursor: pointer;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #404bbf;
+}
+
+/* ----- About ----- */
+.section-title {
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
+.about-text {
+  letter-spacing: 0.02em;
+}
+
+/* ---- Our team ----- */
+.team {
+  background-color: #f4f4fd;
+}
+
+.team-card-item {
+  background-color: #ffffff;
+}
+
+.team-card-text {
+  letter-spacing: 0.02em;
+}
+
+/* ----- Portfolio ----- */
+.portfolio-text {
+  letter-spacing: 0.02em;
+}
+
+/* ----- Footer ---- */
+.footer {
+  color: #f4f4fd;
+  background-color: #2e2f42;
+}
+
+.footer-logo-accent {
+  color: #f4f4fd;
+}
+
+.footer-text {
+  letter-spacing: 0.02em;
+}
