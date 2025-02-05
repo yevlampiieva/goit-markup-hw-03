@@ -22,7 +22,11 @@ h3 {
   color: #2e2f42;
 }
 
-/* ----- Header ----- */
+button {
+  cursor: pointer;
+}
+
+/* #region Header */
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -58,8 +62,9 @@ h3 {
 .contacts-link:focus {
   color: #404bbf;
 }
+/* #endregion Header */
 
-/* ----- Hero ----- */
+/* #region Hero */
 .hero {
   background-color: #2e2f42;
   text-align: center;
@@ -79,20 +84,21 @@ h3 {
 }
 
 .hero-button {
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
   background-color: #4d5ae5;
-  cursor: pointer;
 }
 
 .hero-button:hover,
 .hero-button:focus {
   background-color: #404bbf;
 }
+/* #endregion Hero */
 
-/* ----- About ----- */
+/* #region About */
 .section-title {
   font-size: 36px;
   line-height: 1.11;
@@ -105,8 +111,9 @@ h3 {
 .about-text {
   letter-spacing: 0.02em;
 }
+/* #endregion About */
 
-/* ---- Our team ----- */
+/* #region Our team */
 .team {
   background-color: #f4f4fd;
 }
@@ -118,13 +125,15 @@ h3 {
 .team-card-text {
   letter-spacing: 0.02em;
 }
+/* #endregion Our team */
 
-/* ----- Portfolio ----- */
+/* #region Portfolio */
 .portfolio-text {
   letter-spacing: 0.02em;
 }
+/* #endregion Portfolio */
 
-/* ----- Footer ---- */
+/* #region Footer */
 .footer {
   color: #f4f4fd;
   background-color: #2e2f42;
@@ -137,3 +146,4 @@ h3 {
 .footer-text {
   letter-spacing: 0.02em;
 }
+/* #endregion Footer */
