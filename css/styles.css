@@ -160,7 +160,7 @@ img {
   text-transform: capitalize;
   margin: 0 auto;
   margin-bottom: 48px;
-  width: 496px;
+  max-width: 496px;
 }
 
 .hero-title-accent {
@@ -243,7 +243,7 @@ img {
 }
 
 .team-card-box {
-  padding: 32px 16px;
+  padding: 32px 0;
   text-align: center;
 }
 
